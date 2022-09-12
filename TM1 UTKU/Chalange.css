@@ -1,0 +1,315 @@
+body {
+  background-color: rgb(33, 39, 58);
+  padding-bottom: 100px;
+
+
+}
+
+.header1 {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  max-height: 90px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 500px;
+  box-shadow: 1px 1px 30px 1px rgb(201, 201, 201);
+  z-index: 300000;
+
+
+}
+
+.logo1 {
+  height: 80px;
+  margin-left: 60px;
+  cursor: pointer;
+  display: inline-block;
+
+
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  font-family: arial, roboto;
+  font-weight: 600;
+  margin-left: 0px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 30px;
+  font-size: 20px;
+  transition: 0.6s;
+
+
+}
+
+.links:hover {
+  letter-spacing: 4px;
+  transition: 0.6s;
+  color: rgb(0, 255, 0);
+
+
+}
+
+.hero1 {
+  display: flex;
+  flex: 1;
+  width: 1500px;
+  cursor: pointer;
+  position: absolute;
+
+
+}
+
+.hero-box {
+  max-width: 1500px;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 370px;
+
+
+}
+
+.title1 {
+  position: relative;
+  z-index: 3;
+  color: white;
+  font-family: arial, roboto;
+  font-weight: 700px;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 300px;
+  letter-spacing: 5px;
+  transition: 1s;
+
+
+}
+
+.title1:hover {
+  transition: 1s;
+  letter-spacing: 15px;
+
+
+}
+
+.fade {
+  margin-top: 100px;
+  box-shadow: 0 -50px 600px 150px rgb(0, 0, 0);
+  width: 1500px;
+  background-color: rgb(39, 39, 39);
+  height: 0px;
+  z-index: 1;
+  position: absolute;
+
+
+}
+
+.logo2 {
+  height: 80px;
+  width: 120px;
+  margin-left: 25px;
+  cursor: pointer;
+
+
+}
+
+.footer1 {
+  background-color: rgb(0, 0, 0);
+  width: 1510px;
+  height: 100p;
+  display: block;
+  float: right;
+  margin-top: 200px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-style: solid;
+
+
+}
+
+.footer-title {
+  color: white;
+  margin-left: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.6s;
+
+
+}
+
+.footer-title:hover {
+  transition: 0.6s;
+  color: rgb(0, 255, 0);
+  letter-spacing: 3px;
+
+
+}
+
+.middle-section {
+  margin-top: 400px;
+
+
+}
+
+.left,
+.right {
+  color: black;
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin-left: 300px;
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  border-style: solid;
+  transition: 1s;
+  font-family: arial, roboto;
+  font-size: 18px;
+  font-weight: 800px;
+  border-color: white;
+  cursor: pointer;
+
+
+}
+
+.left:hover,
+.right:hover {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  transition: 0.4s;
+  box-shadow: 1px 1px 30px 1px rgb(0, 255, 0);
+  color: rgb(145, 145, 145);
+
+
+}
+
+.title6 {
+  color: white;
+  font-size: 55px;
+  text-align: center;
+
+  font-family: arial, Roboto, sans-serif;
+  font-weight: 700px;
+  transition: 1s;
+
+
+}
+
+.title6:hover {
+  letter-spacing: 8px;
+  transition: 0.5s;
+  border-width: 1px;
+  font-size: 65px;
+
+
+}
+
+.border-box {
+  transition: 1s;
+  margin-top: 300px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(33, 39, 58);
+
+
+}
+
+.border-box:hover {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(0, 255, 0);
+  transition: 0.5;
+
+
+}
+
+
+.bottom-section {
+  background-color: rgb(0, 0, 0);
+  height: 510px;
+  margin-top: -120px;
+  width: 700px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  transition: 1s;
+  box-shadow: 1px 1px 30px 1px rgb(0, 0, 0);
+
+
+}
+
+
+.bottom-section:hover {
+  padding-left: 500px;
+  transition: 0.7s;
+
+
+}
+
+.img1 {
+  width: 400px;
+  margin-left: 150px;
+  position: relative;
+
+
+}
+
+.airpods {
+  font-family: arial, roboto, sans-serif;
+  font-size: 42px;
+  color: white;
+  margin-top: 400px;
+  margin-left: 150px;
+  transition: 1s;
+  font-weight: 700;
+  position: relative;
+
+
+}
+
+
+.airpods:hover {
+  color: rgb(0, 255, 0);
+  letter-spacing: 3px;
+  transition: 0.6s;
+
+
+}
+
+
+.tooltip {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  display: inline;
+  position: absolute;
+  float: left;
+  font-family: arial, roboto;
+  margin-bottom: 20px;
+  left: 10px;
+  margin-top: 80px;
+  margin-left: 10px;
+  transition: 0.3s;
+
+
+}
+
+.tooltip:hover {
+    color: white;
+    font-size: 32px;
+    display: inline;
+    position: absolute;
+    float: left;
+    font-family: arial, roboto;
+    margin-bottom: 20px;
+    left: 10px;
+    z-index: 5;
+    padding-right: 700px;
+    transition: 1s;
+}
